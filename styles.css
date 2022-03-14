@@ -33,6 +33,48 @@ h3 {
   color: yellow;	
 }
 
+.container .ltribtn {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: Transparent;
+  color: Transparent;
+  font-size: 16px;
+  padding: 40px 28px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.container .ltribtn:hover {
+  color: yellow;	
+}
+
+.container .rtribtn {
+  position: absolute;
+  top: 35%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: Transparent;
+  color: Transparent;
+  font-size: 16px;
+  padding: 40px 28px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.container .rtribtn:hover {
+  color: yellow;	
+}
+
 .container .larmbtn {
   position: absolute;
   top: 30%;
@@ -57,7 +99,7 @@ h3 {
 .container .chestbtn {
   position: absolute;
   top: 25%;
-  left: 50%;
+  left: 45%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: Transparent;
