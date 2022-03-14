@@ -1,0 +1,224 @@
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: blue;
+}
+
+h3 {
+  color: green;
+}
+
+
+.container .rarmbtn {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: Transparent;
+  color: Transparent;
+  font-size: 16px;
+  padding: 40px 28px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.container .rarmbtn:hover {
+  color: yellow;	
+}
+
+.container .larmbtn {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: Transparent;
+  color: Transparent;
+  font-size: 16px;
+  padding: 40px 28px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.container .larmbtn:hover {
+	color: yellow;	
+}
+
+.container .chestbtn {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: Transparent;
+  color: Transparent;
+  font-size: 16px;
+  padding: 25px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.container .chestbtn:hover {
+  color: yellow;
+}
+
+.container .corebtn {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: Transparent;
+  color: Transparent;
+  font-size: 16px;
+  padding: 60px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.container .corebtn:hover {
+  color: yellow;
+}
+
+
+.container .lthighbtn {
+  position: absolute;
+  top: 55%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: Transparent;
+  color: Transparent;
+  font-size: 16px;
+  padding: 40px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.container .lthighbtn:hover {
+  color: yellow;
+}
+
+.container .rthighbtn {
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: Transparent;
+  color: Transparent;
+  font-size: 16px;
+  padding: 40px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.container .rthighbtn:hover {
+  color: yellow;
+}
+
+.container .rshoulderbtn {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: Transparent;
+  font-size: 16px;
+  padding: 14px 2px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.container .rshoulderbtn:hover {
+  color: yellow;	
+}
+
+.container .lshoulderbtn {
+  position: absolute;
+  top: 20%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: Transparent;
+  font-size: 16px;
+  padding: 14px 2px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.container .lshoulderbtn:hover {
+  color: yellow;	
+}
+
+.container .rcalfbtn {
+  position: absolute;
+  top: 75%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: Transparent;
+  font-size: 16px;
+  padding:60px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.container .rcalfbtn:hover {
+  color: black;
+}
+
+.container .lcalfbtn {
+  position: absolute;
+  top: 75%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: Transparent;
+  font-size: 16px;
+  padding:60px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.container .lcalfbtn:hover {
+  color: black;
+}

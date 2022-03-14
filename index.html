@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="styles.css">
+<style>
+.container {
+  position: relative;
+  width: 300px;
+  max-width: 400px;
+  min-width: 100px;
+  
+}
+
+.container img {
+  width: 100%;
+ 
+}
+
+</style>
+
+</head>
+<body>
+<script>
+function change(Desc, videolink){
+	document.getElementById("Description").value = Desc;
+	document.getElementById('videoFrame').src= videolink;
+}
+
+</script>
+
+
+<table >
+	<tr align="center" ><td colspan="2"><h1 color="blue">Interactive Muscle Map</h1></td></tr>
+
+	<tr align="center" ><td colspan="2"><h3>Welcome to self training Interactive Muscle Map for the beginers</h3><hr></td></tr>
+	
+	<tr valign="top">
+		<td>
+		<div class="container" >
+  		<img src="MuscleMap.png" alt="Snow" class = "responsive">
+		 <button class="rshoulderbtn" onclick="change('right shoulder Clicked', 'https://www.youtube.com/embed/o9zCgPtsups')"  >Shoulder</button>
+		 <button class="lshoulderbtn" onclick="change('left shoulder Clicked', 'https://www.youtube.com/embed/o9zCgPtsups')"  >Shoulder</button>
+  		<button class="rarmbtn" onclick="change('right arm','https://www.youtube.com/embed/VmB1G1K7v94?autoplay=1')"  >Biceps</button>
+		<button class="larmbtn" onclick="change('left Arm Clicked', 'https://www.youtube.com/embed/VmB1G1K7v94')"  >Biceps</button>
+		<button class="chestbtn" onclick="change('Chest Arm Clicked', 'https://www.youtube.com/embed/o9zCgPtsups')"  >Chest</button>
+		<button class="corebtn" onclick="change('Core Arm Clicked', 'https://www.youtube.com/embed/o9zCgPtsups')"  >Core</button>
+		<button class="lthighbtn" onclick="change('left thigh Clicked', 'https://www.youtube.com/embed/o9zCgPtsups')"  >Thigh</button>
+		<button class="rthighbtn" onclick="change('right thigh Clicked', 'https://www.youtube.com/embed/o9zCgPtsups')"  >Thigh</button>
+		<button class="rcalfbtn" onclick="change('right calf Clicked', 'https://www.youtube.com/embed/o9zCgPtsups')"  >Calves</button>
+		<button class="lcalfbtn" onclick="change('left calf Clicked', 'https://www.youtube.com/embed/o9zCgPtsups')"  >Calves</button>
+
+ 
+		</div>
+		</td>
+		
+	<td>
+	<table>
+	<tr>
+		<td> 
+		<textarea id="Description" cols="100%" rows="10" style="color:blue;font-weight:900;font-size: 16px;"></textarea>
+		
+		</td>
+	</tr>
+	<tr>
+		<td>
+		
+	<iframe width="760" height="500" ID="videoFrame" name="videoFrame" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+		</td>
+	</tr>
+	</table>
+	</td>
+	</tr>
+</table>
+</body>
+</html>
